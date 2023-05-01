@@ -1,0 +1,91 @@
+/* Colors and fonts */
+body {
+  background-color: rgb(244,194,194);
+  color: rgb(50, 50, 50);
+  font-family: serif;
+  font-size: 17px;
+}
+h1, h2 {
+	font-family: fantasy;
+}
+h1 {
+  color: deeppink;	
+  font-weight: 200;
+  font-size: 50px;
+}
+
+h2 {
+  color: rgb(228, 113, 122);
+  font-size: 23px;
+  font-weight: lighter;
+}
+a {
+   text-decoration: none ;
+   color:rgb(215, 72, 148);
+   font-weight: 600;
+   font-size: 20px;
+}
+a:hover {
+	color: darkred;
+}
+
+/* Custom design with class */
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media ( max-width: 600px) {
+  .container {
+    width: 400px;
+  }
+}
+
+@media ( max-width: 70px) {
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 760px)
+  .container {
+    width: 600px 
+  }
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px, 10px, 30px, rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 20px 0px ;  
+  text-align: center;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.btn-pink {
+  background-color:rgb(215, 72, 148) ;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i{
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+.list-inline i hover{
+  color: black;
+}
+#introduction p {
+  margin-bottom: 40px;
+}
+
